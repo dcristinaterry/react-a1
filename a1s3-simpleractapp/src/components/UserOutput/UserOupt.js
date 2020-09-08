@@ -1,13 +1,13 @@
 import React from 'react'
 
-// const userOutput = props => {
+const userOutput = props => {
 
-//     return(
-//         <div>
-//             <p>Entered text: {props.valuetext}</p>
-//         </div>
-//     );
+    return(
+        <div>
+            <p>Entered text: {props.valuetext}</p>
+        </div>
+    );
 
-// }
+}
 
 export default userOutput;
