@@ -1,21 +1,23 @@
 import React from 'react'
 
-// const userInput = props => {
+const userInput = props => {
 
-//     return (
-//         <div>
-//             <p>Enter text</p>
-//             <input 
-//             type="text" 
-//             onChange={props.change}  
-//             value={props.value}></input>
+    return (
+        <div>
+            <p>Enter text</p>
+            <input 
+            type="text" 
+            // onChange={props.change}  
+            // value={props.value}>
+
+            </input>
             
-//         </div>
+        </div>
 
-//     )
+    )
 
 
 
-// }
+}
 
 export default userInput;
