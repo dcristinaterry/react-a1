@@ -19,21 +19,21 @@ function App() {
   // const paragraphChange = (event) => {
   //   setParagraph({ paragraphValue: event.target.value })
   // }
-  // return (
-  //   <div className="App">
-  //     <UserInput
-  //       change={inputChangeHandler}
-  //       value={input.inputValue}
-  //     />
+  return (
+    <div className="App">
+      <UserInput
+        change={inputChangeHandler}
+        value={input.inputValue}
+      />
 
-  //     <UserOutput valuetext={paragraph.paragraphValue} />
+      <UserOutput valuetext={paragraph.paragraphValue} />
 
-  //     <UserOutput valuetext={paragraph.paragraphValue} />
+      <UserOutput valuetext={paragraph.paragraphValue} />
 
-  //     <UserOutput valuetext="par3" />
+      <UserOutput valuetext="par3" />
 
-  //   </div>
-  // );
+    </div>
+  );
 }
 
 export default App;
