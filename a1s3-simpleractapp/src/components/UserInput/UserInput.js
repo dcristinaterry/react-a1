@@ -7,8 +7,8 @@ const userInput = props => {
             <p>Enter text</p>
             <input 
             type="text" 
-            // onChange={props.change}  
-            // value={props.value}>
+            onChange={props.change}  
+            value={props.value}>
 
             </input>
             
