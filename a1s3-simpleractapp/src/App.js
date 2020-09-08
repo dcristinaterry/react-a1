@@ -6,7 +6,7 @@ import UserInput from './components/UserInput/UserInput'
 function App() {
 
   // const [input, setInput] = useState({ inputValue: "" })
-  // const [paragraph, setParagraph] = useState({ paragraphValue: "superCristina" })
+  const [paragraph, setParagraph] = useState({ paragraphValue: "superCristina" })
 
   // let inputChangeHandler = (event) => {
   //   setParagraph({ paragraphValue: event.target.value })
