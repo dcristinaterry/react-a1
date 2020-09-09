@@ -8,9 +8,9 @@ function App() {
   const [input, setInput] = useState({ inputValue: "" })
   const [paragraph, setParagraph] = useState({ paragraphValue: "superCristina" })
 
-  let inputChangeHandler = (event) => {
-    setParagraph({ paragraphValue: event.target.value })
-    setInput({ inputValue: event.target.value });
+  let inputChangeHandler = (x) => {
+    setParagraph({ paragraphValue: x.target.value })
+    setInput({ inputValue: x.target.value });
     console.log("input value", input.inputValue)
 
 
